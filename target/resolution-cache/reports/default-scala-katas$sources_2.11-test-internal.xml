@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scala-katas$sources_2.11"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160510175503"/>
+	<dependencies>
+		<module organisation="org.specs2" name="specs2-core_2.11">
+			<revision name="3.0" status="release" pubdate="20150303085600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3424" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/specs2/specs2-core_2.11/3.0/specs2-core_2.11-3.0.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="specs2-core_2.11" type="jar" ext="jar" status="no" details="" size="1917137" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-core_2.11/jars/specs2-core_2.11-3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-core_2.11/3.0/specs2-core_2.11-3.0.jar"/>
+					</artifact>
+					<artifact name="specs2-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="97585" time="305" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-core_2.11/srcs/specs2-core_2.11-3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-core_2.11/3.0/specs2-core_2.11-3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.0.0" status="release" pubdate="20140417120500" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache License" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2800" time="0" location="/Users/nshah/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.0.0/shapeless_2.11-2.0.0.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="jar" ext="jar" status="successful" details="" size="2049451" time="462" location="/Users/nshah/.ivy2/cache/com.chuusai/shapeless_2.11/jars/shapeless_2.11-2.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.0.0/shapeless_2.11-2.0.0.jar"/>
+					</artifact>
+					<artifact name="shapeless_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="134515" time="275" location="/Users/nshah/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.0.0/shapeless_2.11-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-matcher_2.11">
+			<revision name="3.0" status="release" pubdate="20150303085600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/specs2/specs2-matcher_2.11/3.0/specs2-matcher_2.11-3.0.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="specs2-matcher_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="57026" time="239" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-matcher_2.11/srcs/specs2-matcher_2.11-3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-matcher_2.11/3.0/specs2-matcher_2.11-3.0-sources.jar"/>
+					</artifact>
+					<artifact name="specs2-matcher_2.11" type="jar" ext="jar" status="no" details="" size="2636349" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-matcher_2.11/jars/specs2-matcher_2.11-3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-matcher_2.11/3.0/specs2-matcher_2.11-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-common_2.11">
+			<revision name="3.0" status="release" pubdate="20150303085500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3244" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/specs2/specs2-common_2.11/3.0/specs2-common_2.11-3.0.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="specs2-common_2.11" type="jar" ext="jar" status="no" details="" size="1967582" time="0" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-common_2.11/jars/specs2-common_2.11-3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-common_2.11/3.0/specs2-common_2.11-3.0.jar"/>
+					</artifact>
+					<artifact name="specs2-common_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="112999" time="230" location="/Users/nshah/.ivy2/cache/org.specs2/specs2-common_2.11/srcs/specs2-common_2.11-3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2-common_2.11/3.0/specs2-common_2.11-3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.5" status="release" pubdate="20150107013200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4454732" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="560509" time="397" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz.stream" name="scalaz-stream_2.11">
+			<revision name="0.6a" status="release" pubdate="20141114163042" resolver="sbt-chain" artresolver="sbt-chain" homepage="" extra-info.apiURL="http://docs.typelevel.org/api/scalaz-stream/stable/0.6a/doc/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3522" time="0" location="/Users/nshah/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/ivy-0.6a.xml" searched="false" origin-is-local="false" origin-location="http://dl.bintray.com/scalaz/releases/org/scalaz/stream/scalaz-stream_2.11/0.6a/scalaz-stream_2.11-0.6a.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6a" rev-constraint-default="0.6a" rev-constraint-dynamic="0.6a" callerrev="1.0" extra-info.apiURL="http://docs.typelevel.org/api/scalaz-stream/stable/0.6a/doc/"/>
+				<artifacts>
+					<artifact name="scalaz-stream_2.11" type="jar" ext="jar" status="successful" details="" size="1277169" time="590" location="/Users/nshah/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/jars/scalaz-stream_2.11-0.6a.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/scalaz/releases/org/scalaz/stream/scalaz-stream_2.11/0.6a/scalaz-stream_2.11-0.6a.jar"/>
+					</artifact>
+					<artifact name="scalaz-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73823" time="353" location="/Users/nshah/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/srcs/scalaz-stream_2.11-0.6a-sources.jar">
+						<origin-location is-local="false" location="http://dl.bintray.com/scalaz/releases/org/scalaz/stream/scalaz-stream_2.11/0.6a/scalaz-stream_2.11-0.6a-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="scodec-bits_2.11">
+			<revision name="1.0.4" status="release" pubdate="20141007032300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scodec/scodec-bits" extra-info.apiURL="http://docs.typelevel.org/api/scodec/bits/stable/1.0.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Three-clause BSD-style" url="http://github.com/scodec/scodec-bits/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3021" time="0" location="/Users/nshah/.ivy2/cache/org.typelevel/scodec-bits_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/scodec-bits_2.11/1.0.4/scodec-bits_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0" extra-info.apiURL="http://docs.typelevel.org/api/scodec/bits/stable/1.0.4/"/>
+				<artifacts>
+					<artifact name="scodec-bits_2.11" type="jar" ext="jar" status="successful" details="" size="275701" time="315" location="/Users/nshah/.ivy2/cache/org.typelevel/scodec-bits_2.11/jars/scodec-bits_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/scodec-bits_2.11/1.0.4/scodec-bits_2.11-1.0.4.jar"/>
+					</artifact>
+					<artifact name="scodec-bits_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29275" time="279" location="/Users/nshah/.ivy2/cache/org.typelevel/scodec-bits_2.11/srcs/scodec-bits_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/scodec-bits_2.11/1.0.4/scodec-bits_2.11-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.11">
+			<revision name="7.1.1" status="release" pubdate="20150206153200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/ivy-7.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.1.1/scalaz-concurrent_2.11-7.1.1.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.1" rev-constraint-default="7.1.1" rev-constraint-dynamic="7.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21044" time="241" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/srcs/scalaz-concurrent_2.11-7.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.1.1/scalaz-concurrent_2.11-7.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-concurrent_2.11" type="jar" ext="jar" status="successful" details="" size="348534" time="259" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/jars/scalaz-concurrent_2.11-7.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.1.1/scalaz-concurrent_2.11-7.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.11">
+			<revision name="7.1.1" status="release" pubdate="20150206153200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2671" time="0" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-effect_2.11/ivy-7.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.1.1/scalaz-effect_2.11-7.1.1.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.1" rev-constraint-default="7.1.1" rev-constraint-dynamic="7.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24034" time="244" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-effect_2.11/srcs/scalaz-effect_2.11-7.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.1.1/scalaz-effect_2.11-7.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-effect_2.11" type="jar" ext="jar" status="successful" details="" size="424590" time="320" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-effect_2.11/jars/scalaz-effect_2.11-7.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.1.1/scalaz-effect_2.11-7.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.1.1" status="release" pubdate="20150206153200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2845" time="0" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.1/scalaz-core_2.11-7.1.1.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.1" rev-constraint-default="7.1.1" rev-constraint-dynamic="7.1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="344039" time="457" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.1/scalaz-core_2.11-7.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.11" type="jar" ext="jar" status="successful" details="" size="9459554" time="1403" location="/Users/nshah/.ivy2/cache/org.scalaz/scalaz-core_2.11/jars/scalaz-core_2.11-7.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.1/scalaz-core_2.11-7.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140520101000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109171" time="271" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="successful" details="" size="648678" time="380" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140723084500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="42219" time="275" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="successful" details="" size="416065" time="294" location="/Users/nshah/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309051604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="scala-katas$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/nshah/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
