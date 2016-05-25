@@ -1,10 +1,20 @@
 class StringCalculator {
-  val delimiterPattern = "\\/\\/(.*?)\\n".r
-  val defaultSplitPattern = ",|\\n"
+  val numbersPattern = "\\/\\/(.*?)\\n(.*?)".r
+  val delimitersPattern = "\\[(.*?)\\]".r
+  val defaultDelimiters = ",|\\n"
 
   def Add(numbers: String): Int = {
-    getNumberList(numbers)
-      .split(getSplitPattern(numbers))
+    numbers match {
+      case numbersPattern(resolvedDelimiters, resolvedNumbers) =>
+        Add(resolvedNumbers, resolvedDelimiters)
+      case _ =>
+        Add(numbers, defaultDelimiters)
+    }
+  }
+
+  def Add(numbers: String, delimiters: String): Int = {
+    numbers
+      .split(convertToRegexPattern(delimiters))
       .map(
         x => if (x.equals(""))
           0
@@ -21,23 +31,25 @@ class StringCalculator {
       .sum
   }
 
-  def getNumberList(numbers: String) = {
-    delimiterPattern.replaceAllIn(numbers, "")
+  def convertToRegexPattern(delimiters: String) = {
+    escapeRegexChars(decomposeDelimiters(delimiters))
   }
 
-  def getSplitPattern(numbers: String) = {
-    val matchData = delimiterPattern.findAllIn(numbers).matchData.toList
-    if (matchData.nonEmpty)
-      formatSplitPattern(matchData.head.group(1))
-    else
-      defaultSplitPattern
+  def decomposeDelimiters(delimiters: String) = {
+    delimiters match {
+      case delimitersPattern(delimiterList) =>
+        delimitersPattern
+          .findAllMatchIn(delimiters)
+          .map(x => x.group(1))
+          .mkString("(", "|", ")")
+      case _ =>
+        delimiters
+    }
   }
 
-  def formatSplitPattern(pattern: String) = {
+  def escapeRegexChars(pattern: String) = {
     pattern
       .replace("*", "\\*")
-      .split("\\]\\[")
-      .map(x => x.replace("]", "").replace("[", ""))
-      .mkString("(", "|", ")")
+      .replace("#", "\\#")
   }
 }
