@@ -38,5 +38,8 @@ class StringCalculatorSpec extends org.specs2.mutable.Specification {
     "return 6 for '//[%][*]\n1*2%3'" >> {
       calc.Add("//[%][*]\n1*2%3") must_=== 6
     }
+    "return 6 for '//[%][*#*]\n1*#*2%3'" >> {
+      calc.Add("//[%][*#*]\n1*#*2%3") must_=== 6
+    }
   }
 }

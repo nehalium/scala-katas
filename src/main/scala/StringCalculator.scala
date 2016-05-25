@@ -28,8 +28,16 @@ class StringCalculator {
   def getSplitPattern(numbers: String) = {
     val matchData = delimiterPattern.findAllIn(numbers).matchData.toList
     if (matchData.nonEmpty)
-      matchData.head.group(1).replace("][", "")
+      formatSplitPattern(matchData.head.group(1))
     else
       defaultSplitPattern
+  }
+
+  def formatSplitPattern(pattern: String) = {
+    pattern
+      .replace("*", "\\*")
+      .split("\\]\\[")
+      .map(x => x.replace("]", "").replace("[", ""))
+      .mkString("(", "|", ")")
   }
 }
