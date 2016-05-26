@@ -14,7 +14,7 @@ class StringCalculator {
 
   def Add(numbers: String, delimiters: String): Int = {
     numbers
-      .split(convertToRegexPattern(delimiters))
+      .split(getSplitPattern(delimiters))
       .map(
         x => if (x.equals(""))
           0
@@ -31,7 +31,7 @@ class StringCalculator {
       .sum
   }
 
-  def convertToRegexPattern(delimiters: String) = {
+  def getSplitPattern(delimiters: String) = {
     escapeRegexChars(decomposeDelimiters(delimiters))
   }
 
@@ -48,8 +48,6 @@ class StringCalculator {
   }
 
   def escapeRegexChars(pattern: String) = {
-    pattern
-      .replace("*", "\\*")
-      .replace("#", "\\#")
+    "[\\*\\#\\+\\?\\$]".r.replaceAllIn(pattern, m => s"\\\\${m.toString}")
   }
 }
