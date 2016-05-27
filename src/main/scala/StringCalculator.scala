@@ -27,7 +27,7 @@ class StringCalculator {
         else
           x
       )
-      .filter(x => x <= 1000)
+      .filter(_ <= 1000)
       .sum
   }
 
