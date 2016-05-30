@@ -20,7 +20,7 @@ class StringCalculatorSpec extends org.specs2.mutable.Specification {
     "return 3 for '1,2'" >> {
       calc.add("1,2") must_=== 3
     }
-    "return 0 for '-1,1'" >> {
+    "throw an exception for '-1,1'" >> {
       calc.add("-1,1") must throwA(new Exception("negatives not allowed"))
     }
     "return 6 for '1,2,3'" >> {
