@@ -1,18 +1,23 @@
+/*
+ * String Calculator
+ *
+ * See: http://osherove.com/tdd-kata-1/
+ */
 class StringCalculator {
   val numbersPattern = "\\/\\/(.*?)\\n(.*?)".r
   val delimitersPattern = "\\[(.*?)\\]".r
   val defaultDelimiters = ",|\\n"
 
-  def Add(numbers: String): Int = {
+  def add(numbers: String): Int = {
     numbers match {
       case numbersPattern(resolvedDelimiters, resolvedNumbers) =>
-        Add(resolvedNumbers, resolvedDelimiters)
+        add(resolvedNumbers, resolvedDelimiters)
       case _ =>
-        Add(numbers, defaultDelimiters)
+        add(numbers, defaultDelimiters)
     }
   }
 
-  def Add(numbers: String, delimiters: String): Int = {
+  def add(numbers: String, delimiters: String): Int = {
     numbers
       .split(getSplitPattern(delimiters))
       .map(
